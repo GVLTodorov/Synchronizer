@@ -260,8 +260,8 @@ namespace Synchronizer
             try
             {
                 Path.GetDirectoryName("");
-                Directory.CreateDirectory(@"D:\Test2\hui\hui1\");
-                File.WriteAllText(@"D:\Test2\hui\hui1\t.txt", "23232");
+                Directory.CreateDirectory(@"D:\test\");
+                File.WriteAllText(@"D:\test1\t.txt", "23232");
             }
             catch (Exception)
             {
