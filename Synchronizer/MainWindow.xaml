@@ -1,0 +1,14 @@
+﻿<Window x:Class="Synchronizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Synchronizer" Height="150" Width="1000" WindowStyle="ToolWindow">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <Button Name="btnSource" Content="Source" DockPanel.Dock="Top" Click="btnSource_Click"/>
+            <Button Name="btnDestination" Content="Destination" DockPanel.Dock="Top" Click="btnDestination_Click"/>
+            <ProgressBar Name="prgBar" IsIndeterminate="False" Height="15" Background="Orange" Foreground="OrangeRed" DockPanel.Dock="Top" Minimum="0" Maximum="100"/>
+            <TextBox Name="txtStatus" Text="Waiting..." DockPanel.Dock="Top" TextAlignment="Center" IsEnabled="False"/>
+            <Button Name="btnSyncronize"  Content="Synchronize" DockPanel.Dock="Bottom" Click="btnSyncronize_Click"/>
+        </DockPanel>
+    </Grid>
+</Window>

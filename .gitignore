@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/Synchronizer/obj
+/Synchronizer/bin/Debug
+/.vs
