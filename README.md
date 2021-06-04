@@ -1,5 +1,5 @@
-## Synchronizer 2009
+# Synchronizer 2009
 
-# Synchronize two local folders.
+## Synchronize two local folders.
 
 XAML
