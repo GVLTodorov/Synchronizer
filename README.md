@@ -1,4 +1,4 @@
-# Synchronizer 2009
+# Synchronizer
 
 ## Synchronize two local folders.
 
